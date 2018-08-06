@@ -21,6 +21,8 @@ function getPostings(){
             <h5 class="card-title">${data[key].title}</h5>
             <p class="card-text">${data[key].name}
             </p>
+            <p class="card-text">${data[key].description}
+            </p>
              <p class="card-text"><a href= ${data[key].contact}>Contact Info: ${data[key].contact}</a></p>
              <p class="card-text">${data[key].date}</p>
             <p class="card-text">${data[key].career}</p>
@@ -52,6 +54,8 @@ function filterPosts(){
             <div class="card-body">
             <h5 class="card-header">${data[key].title}</h5>
             <p class="card-text">${data[key].name}
+            </p>
+            <p class="card-text">${data[key].description}
             </p>
              <p class="card-text"><a href= ${data[key].contact}>Contact Info: ${data[key].contact}</a></p>
              <p class="card-text">${data[key].date}</p>
