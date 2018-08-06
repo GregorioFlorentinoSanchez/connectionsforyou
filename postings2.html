@@ -5,15 +5,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<script type="text/javascript" src="user.js"></script>
-		<title>Internship Postings</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-		
+
+<head>
+	<script type="text/javascript" src="user.js"></script>
+	<title>Internship Postings</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
 	<script>
 		// Initialize Firebase
 		var config = {
@@ -26,42 +27,42 @@
 		};
 		firebase.initializeApp(config);
 	</script>
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+</head>
 
-			<!-- Header -->
-	<header id="header">
-					<h1><a href="index.html">Connections 4 You</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-									<li><a href="aboutus.html">Team</a></li>
-							<li>
-								<li><a href="contact.html">Contact Us</a></li>
-								<li id='postingsButton1'><a class='posts' href="postings2.html">Postings</a></li>
-							<li id= 'postsButton1'><a  class='posts' href="post12.html">Post internship</a></li>
+<body class="is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Connections 4 You</a></h1>
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<li><a href="aboutus.html">Team</a></li>
+						<li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li id='postingsButton1'><a class='posts' href="postings2.html">Postings</a></li>
+							<li id='postsButton1'><a class='posts' href="post12.html">Post internship</a></li>
 							<li><a href="profile.html">Student Profile</a></li>
 
 							<li>
 								<div id='login-div'><a href="#" id='login' class="button">Log In</a></div>
 							</li>
-							
-										</ul>
-									</li>
-								</ul>
-							
-					</nav>
-					<link rel="stylesheet" href="style1.css" type="text/css" />
-				</header>
 
-			<!-- Main -->
-				<section id="main" class="container">
-					<header>
-						<h2>Internship Postings</h2>
-						<select id='career-category' name="career-category">
-                  <option value="finance">Finance</option>
+				</ul>
+				</li>
+				</ul>
+
+			</nav>
+			<link rel="stylesheet" href="style1.css" type="text/css" />
+		</header>
+
+		<!-- Main -->
+		<section id="main" class="container">
+			<header>
+				<h2>Internship Postings</h2>
+				<select id='career-category' name="career-category">
                   <option value="fashion">Fashion</option>
                   <option value="design">Design</option>
                   <option value="law">Law</option>
@@ -69,40 +70,51 @@
                   <option value="educational">Educational</option>
                   <option value="engineering">Engineering</option>
                   <option value="medicine">Medicine</option>
-
+                  <option value="arts">Arts</option>
+                  <option value="entertainment">Entertainment</option>
+                  <option value="beauty">Beauty</option>
+                  <option value="fitness">Fitness</option>
+                  <option value="business">Business</option>
+                  <option value="food">Food</option>
+                  <option value="finance">Finance</option>
+                  <option value="news">News</option>
+                  <option value="pets">Pets and Animals</option>
+                  <option value="realestate">Real Estate</option>
+                  <option value="sports">Sports</option>
                 </select>
-					</header>
-					<div class='box'>
-						<div id='postings' class='row'>
-						
-						</div>
-					</div>
-				</section>
+			</header>
+			<div class='box'>
+				<div id='postings' class='row'>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-					<li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a>
-					</li>
-					<li><a href="https://www.facebook.com/brandon.knights.54379" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/connections4you/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-				</footer>
+				</div>
+			</div>
+		</section>
 
-		</div>
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a>
+				</li>
+				<li><a href="https://www.facebook.com/brandon.knights.54379" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/connections4you/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+			</ul>
+		</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-<script type="text/javascript" src="script3.js"></script>
-<script type="text/javascript" src="script4.js"></script>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript" src="script3.js"></script>
+	<script type="text/javascript" src="script4.js"></script>
 
 
 
-	</body>
+</body>
+
 </html>
