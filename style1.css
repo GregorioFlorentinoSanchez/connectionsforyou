@@ -1,0 +1,30 @@
+#boxer {
+    width: 100%;
+    height: 85%;
+}
+
+#greatDane {
+    width: 100%;
+    height: 85%;
+}
+.hidden{
+    display: none;
+}
+#header-title{
+    font-size: 50px;
+    padding-top: 70px;
+}
+#posts-navbar{
+    margin-top: 20px;
+}
+#postings-container{
+    font-size: larger;
+    text-align: center;
+}
+#errorMessage{
+    color: red;
+    font-size:20px;
+}
+#actual-profile{
+    font-size:40px;
+}

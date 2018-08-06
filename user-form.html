@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Connections4You</title>
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBLSalu7EWI9WKe2xRkOcBsDy0PgrAiiZs",
+      authDomain: "connectionsforyou-d5d7b.firebaseapp.com",
+      databaseURL: "https://connectionsforyou-d5d7b.firebaseio.com",
+      projectId: "connectionsforyou-d5d7b",
+      storageBucket: "connectionsforyou-d5d7b.appspot.com",
+      messagingSenderId: "252350021070"
+    };
+    firebase.initializeApp(config);
+  </script>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+	<header id="header">
+					<h1><a href="index.html">Connections 4 You</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+									<li><a href="aboutus.html">Team</a></li>
+							<li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li id='postingsButton1'><a class='posts' href="postings2.html">Postings</a></li>
+							<li id= 'postsButton1'><a  class='posts' href="post12.html">Post internship</a></li>
+							<li><a href="profile.html">Student Profile</a></li>
+
+							<li>
+								<div id='login-div'><a href="#" id='login' class="button">Log In</a></div>
+							</li>
+							
+										</ul>
+									</li>
+								</ul>
+					</nav>
+					<link rel="stylesheet" href="style1.css" type="text/css" />
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Edit your Profile</h2>
+					</header>
+					<div class='box'>
+						 <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8">
+
+
+        <!-- TODO: Have form below send form data to firebase -->
+        <div >
+          <div class="container">
+            <h1 class="display-4">Fill in each category. </h1>
+            <p class="lead">
+              <form id="profile">
+                <div class="form-group">
+                  <label for="postingTitle">Name</label>
+                  <input type="input" class="form-control" id='name'>
+                  <small class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                  <label for="postingTitle">Age</label>
+                  <input type="text" class="form-control" id="age">
+                  <small class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                  <label for="postingTitle">Your School</label>
+                  <input type="text" class="form-control" id="school">
+                  <small class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                  <label for="postingDescription">Interests</label>
+                  <textarea type="password" class="form-control" id="interests" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" id='save' class="btn btn-primary">Save</button>
+   
+              </form>
+            </p>
+          </div>
+        </div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+					<li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a>
+					</li>
+					<li><a href="https://www.facebook.com/brandon.knights.54379" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/connections4you/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+<script type="text/javascript" src="script4.js"></script>
+ <script type="text/javascript" src="user-form.js"></script>
+	</body>
+</html>
