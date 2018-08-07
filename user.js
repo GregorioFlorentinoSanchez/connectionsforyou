@@ -4,7 +4,7 @@ console.log(user)
 
 function userAccess(){
     if(!user){
-        window.location = 'index.html'
+        window.location = 'block.html'
     }
 }
 

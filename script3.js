@@ -23,7 +23,7 @@ function getPostings(){
             </p>
             <p class="card-text">${data[key].description}
             </p>
-             <p class="card-text"><a href= ${data[key].contact}>Contact Info: ${data[key].contact}</a></p>
+             <p class="card-text">Contact Info: ${data[key].contact}</p>
              <p class="card-text">${data[key].date}</p>
             <p class="card-text">${data[key].career}</p>
             <p class="card-text"></p>
@@ -57,7 +57,7 @@ function filterPosts(){
             </p>
             <p class="card-text">${data[key].description}
             </p>
-             <p class="card-text"><a href= ${data[key].contact}>Contact Info: ${data[key].contact}</a></p>
+             <p class="card-text">Contact Info: ${data[key].contact}</p>
              <p class="card-text">${data[key].date}</p>
             <p class="card-text">${data[key].career}</p>
             <p class="card-text"></p>
